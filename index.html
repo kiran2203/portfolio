@@ -12,6 +12,35 @@
     <!-- Custom CSS -->
     <style>
         /* Add your custom styles here */
+        @media (min-width: 640px) {
+            /* Adjust styles for screens larger than or equal to 640px */
+            .hero-text {
+                font-size: 2rem;
+            }
+            .about-text {
+                max-width: 30rem;
+            }
+        }
+
+        @media (min-width: 768px) {
+            /* Adjust styles for screens larger than or equal to 768px */
+            .hero-text {
+                font-size: 2.5rem;
+            }
+            .about-text {
+                max-width: 35rem;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            /* Adjust styles for screens larger than or equal to 1024px */
+            .hero-text {
+                font-size: 3rem;
+            }
+            .about-text {
+                max-width: 40rem;
+            }
+        }
     </style>
 </head>
 
@@ -34,7 +63,7 @@
     <!-- Hero Section -->
     <section class="py-20 bg-gray-900 text-white">
         <div class="container mx-auto text-center">
-            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Hi, I'm Parimi Venkata Surya Kiran</h1>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 hero-text">Hi, I'm Parimi Venkata Surya Kiran</h1>
             <p class="text-lg md:text-xl lg:text-2xl">Machine learning engineer</p>
         </div>
     </section>
@@ -43,7 +72,7 @@
     <section id="about" class="py-16">
         <div class="container mx-auto">
             <h2 class="text-3xl lg:text-4xl font-bold mb-8 text-center">About Me</h2>
-            <p class="text-lg lg:text-xl max-w-3xl mx-auto">Insert your bio/description here.</p>
+            <p class="text-lg lg:text-xl max-w-3xl mx-auto about-text">Insert your bio/description here.</p>
         </div>
     </section>
 
